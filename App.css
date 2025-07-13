@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.search-box {
+  margin: 20px;
+}
+
+.search-box input {
+  padding: 8px;
+  width: 200px;
+  font-size: 16px;
+}
+
+.search-box button {
+  padding: 8px 12px;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.movie-card {
+  width: 200px;
+  background-color: #f3f3f3;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 6px;
+}
